@@ -1,30 +1,97 @@
-# Diwali Sales Exploratory Data Analysis
+Diwali Sales Analysis & Data Cleaning
 
-This project performs Exploratory Data Analysis (EDA) on Diwali sales data to understand customer purchasing behavior during the festive season.
+A complete end-to-end Data Analytics project using Python, SQL, Jupyter Notebook, and Power BI to analyze customer purchasing behavior during Diwali sales. The project focuses on data cleaning, exploratory data analysis (EDA), SQL integration, and interactive dashboard creation. 
+Project Overview
 
-## Objectives
-- Analyze sales trends during Diwali
-- Study customer demographics such as age, gender, occupation, and state
-- Identify top-performing products and product categories
-- Visualize insights using Python
+This project analyzes Diwali sales data to uncover insights related to:
 
-## Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+* Customer demographics
+* Product categories
+* Sales trends
+* State-wise performance
+* Occupation-based purchases
+* Gender and age group behavior
 
-## Analysis Performed
-- Gender-wise sales analysis
-- Age group vs total sales
-- State-wise top sales and orders
-- Occupation-wise sales analysis
-- Product category and product-wise analysis
+The dataset was cleaned using SQL and analyzed using Python (Pandas, Matplotlib, Seaborn). An interactive dashboard was built in Power BI for business insights visualization.  
 
-## Conclusion
-The analysis provides valuable insights into consumer behavior and product performance during the Diwali festive season.
+Tech Stack
 
-## Author
-Gul Kapoor
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* MySQL
+* SQL
+* Jupyter Notebook
+* Power BI
+
+Data Cleaning Tasks Performed
+
+* Removed unnecessary columns
+* Standardized gender values
+* Handled missing values
+* Removed duplicate records
+* Created Age Group categories
+* Converted marital status into readable format
+* Connected cleaned SQL data with Jupyter 
+
+Dashboard Features
+
+The Power BI dashboard includes:
+
+* KPI cards
+* State-wise sales analysis
+* Gender distribution
+* Occupation-wise purchases
+* Product category analysis
+* Age group analysis
+* Top customers and products
+* Interactive slicers and filters
+
+Dashboard visuals and KPIs are shown in the uploaded Power BI report.
+
+SQL Concepts Used
+
+* ALTER TABLE
+* UPDATE
+* CASE Statements
+* DELETE
+* Common Table Expressions (CTE)
+* ROW_NUMBER()
+* GROUP BY
+* Aggregate Functions
+
+⸻
+
+Python Concepts Used
+
+* Data Cleaning
+* Data Visualization
+* GroupBy Operations
+* Value Counts
+* Bar Plots
+* Count Plots
+* DataFrame Operations
+* SQL Integration using SQLAlchemy
+
+Power BI Dashboard
+
+The dashboard provides interactive business insights into:
+
+* Sales performance
+* Customer behavior
+* Product demand
+* Regional trends
+
+The uploaded dashboard and report demonstrate the final analysis results. 
+
+Conclusion
+
+This project demonstrates practical skills in:
+
+* SQL data cleaning
+* Python-based analysis
+* Data visualization
+* Power BI dashboard development
+* End-to-end analytics workflow
